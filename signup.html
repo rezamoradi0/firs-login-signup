@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="reza moradi" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="فرم ثبت نام در آکادمی آموزشی ، یکی از بهترین سایت های آموزشی ایران"
+    />
+    <meta name="keywords" content="html, css ,web, developer" />
+    <link rel="stylesheet" href="css/styesheet2.css" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="12x12"
+      href="images/password.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="16x16"
+      href="images/password.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="images/password.png"
+    />
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div class="level-0">
+        <!-- Aside -->
+      <aside>
+        <div class="level-1 sideleft"></div>
+      </aside>
+         <!-- Main -->
+      <main>
+        <div class="level-1 sideright">
+          <div class="level-12">
+            <!-- <img class="img-up" src="images/password.png" alt="password icon" />-->
+            <br>
+            <h1>ثبت نام در سامانه</h1>
+            
+            <p class="pheader">
+              برای ثبت نام در این پورتال اطلاعات فرم زیر را با دقت پر کنید سپس
+              دکمه ثبت نام را بزنید
+            </p>
+            
+            <form action="signup.php" method="post">
+              <fieldset>
+                <legend class="c0">User Name :</legend>
+                <legend class="c1">User Name</legend>
+                <legend class="c2">
+                  <img src="images/icons/user (1).svg" alt="" width="12" />
+                </legend>
+
+                <input
+                  type="text"
+                  placeholder="------------------"
+                  name="username"
+                  id="username"
+                  required
+                  maxlength="16"
+                  minlength="5"
+                  title="یک نام کاربری برای خود انتخاب کنید . توجه کنید نام کاربری باید بین 5 الی 16 کاراکتر باشد"
+                  autocomplete="off"
+                />
+                <img
+                  class="right-icon true"
+                  src="images/icons/green/checked.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon red"
+                  src="images/icons/red/wrong.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon green"
+                  src="images/icons/green/green-user (1).svg"
+                  alt=""
+                  width="12"
+                />
+
+                <img
+                  class="right-icon normal"
+                  src="images/icons/user (1).svg"
+                  alt="icon"
+                />
+              </fieldset>
+              <fieldset>
+                <legend class="c0">Email :</legend>
+                <legend class="c1">Email</legend>
+                <legend class="c2">
+                  <img src="images/icons/envelope.svg" alt="" width="12" />
+                </legend>
+                <input
+                  type="email"
+                  placeholder="------------------"
+                  name="email"
+                  id="email"
+                  required
+                  title="ایمیل خود را وارد کنید ."
+                />
+                <img
+                  class="right-icon true"
+                  src="images/icons/green/checked.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon red"
+                  src="images/icons/red/wrong.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon green"
+                  src="images/icons/green/green-envelope.svg"
+                  alt=""
+                  width="12"
+                />
+
+                <img
+                  class="right-icon normal"
+                  src="images/icons/envelope.svg"
+                  alt="icon"
+                />
+              </fieldset>
+              <fieldset>
+                <legend class="c0">PhoneNumber :</legend>
+                <legend class="c1">PhoneNumber</legend>
+                <legend class="c2">
+                  <img src="images/icons/phone-call.svg" alt="" width="12" />
+                </legend>
+                <select name="countrycode" id="countrycode">
+                  <option value="98">Iran +98</option>
+                  <option value="994">Azarbayjan +994</option>
+                  <option value="90">Turkey +90</option>
+                  <option value="93">Afghanestan +93</option>
+                  <option value="971">UA +971</option>
+                  <option value="33">France +33</option>
+                  <option value="49">Germany +49</option>
+                </select>
+                <input
+                  type="text"
+                  placeholder="------------------"
+                  name="number"
+                  id="number"
+                  required
+                  minlength="10"
+                  maxlength="11"
+                  title="شماره تلفن خود را وارد کنید توجه کنید شماره تلفن باید 10 یا 11 عدد باشد"
+                />
+                <img
+                  class="right-icon true"
+                  src="images/icons/green/checked.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon red"
+                  src="images/icons/red/wrong.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon green"
+                  src="images/icons/green/green-phone-call.svg"
+                  alt=""
+                  width="12"
+                />
+
+                <img
+                  class="right-icon normal"
+                  src="images/icons/phone-call.svg"
+                  alt="icon"
+                />
+              </fieldset>
+              <fieldset>
+                <legend class="c0">Password :</legend>
+                <legend class="c1">
+                  <label for="password">Password</label>
+                </legend>
+                <legend class="c2">
+                  <img src="images/icons/key.svg" alt="" width="12" />
+                </legend>
+
+                <input
+                  type="password"
+                  placeholder="------------------"
+                  name="password"
+                  id="password"
+                  minlength="8"
+                  required
+                  title="پسورد خود را وارد کنید ، توجه کنید پسورد ایمن حداقل 8 رقم باشد"
+                />
+                <img
+                  class="right-icon true"
+                  src="images/icons/green/checked.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon red"
+                  src="images/icons/red/wrong.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon green"
+                  src="images/icons/green/green-key.svg"
+                  alt=""
+                  width="12"
+                />
+
+                <img
+                  class="right-icon normal"
+                  src="images/icons/key.svg"
+                  alt="icon"
+                />
+              </fieldset>
+              <fieldset>
+                <legend class="c0">Confirm Password :</legend>
+                <legend class="c1">
+                  <label for="password">Confirm Password</label>
+                </legend>
+                <legend class="c2">
+                  <img src="images/icons/fingerprint.svg" alt="" width="12" />
+                </legend>
+
+                <input
+                  type="password"
+                  placeholder="------------------"
+                  name="confirm"
+                  id="confirm"
+                  required
+                  minlength="8"
+                  title="پسورد خود را دوباره وارد کنید ، این کار جهت درستی  پسورد است"
+                />
+                <img
+                  class="right-icon true"
+                  src="images/icons/green/checked.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon red"
+                  src="images/icons/red/wrong.png"
+                  alt=""
+                  width="12"
+                />
+                <img
+                  class="right-icon green"
+                  src="images/icons/green/green-fingerprint.svg"
+                  alt=""
+                  width="12"
+                />
+
+                <img
+                  class="right-icon last normal"
+                  src="images/icons/fingerprint.svg"
+                  alt="icon"
+                />
+              </fieldset>
+              <br />
+              <div class="level-121">
+                <input type="checkbox" name="rules" id="rules"  required/><label
+                  for="rules"
+                  >با <a href="#">شرایط و قوانین</a> سرویس موافق هستم.</label
+                >
+              </div>
+              <div class="btn-div">
+                <input
+                  class="btn blue"
+                  type="submit"
+                  name="submit"
+                  id="submit"
+                  value="Signup"
+                />
+
+                <a href="#"
+                  ><button class="btn white">
+                    <img
+                      class="btn-icon"
+                      src="images/icons/icons8-google-96.png"
+                      alt="google icon"
+                    />Signup with Google
+                  </button></a
+                >
+              </div>
+              <p class="footertxt">
+                حساب کاربری دارید ؟ <a href="#">وارد شوید</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

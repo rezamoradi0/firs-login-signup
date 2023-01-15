@@ -1,0 +1,259 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('/fonts/Iransans-light/IRANSansWeb_Light.eot#iefix')format("EmbeddedOpenType");
+    src: url('/fonts/Iransans-light/IRANSansWeb_Light.ttf')format("truetype");
+    src: url('/fonts/Iransans-light/IRANSansWeb_Light.svg');
+    src: url('/fonts/Iransans-light/IRANSansWeb_Light.woff')format("woff");
+    src: url('/fonts/Iransans-light/IRANSansWeb_Light.woff2')format("woff2");
+    font-weight: normal;
+
+
+}
+
+@font-face {
+    font-family: JetBrain;
+    src: url('../fonts/jetbrain/JetBrainsMono-Medium.ttf')format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: JetBrain;
+    src: url('../fonts/jetbrain/JetBrainsMono-ExtraBold.ttf')format("truetype");
+    font-weight: bold;
+}
+
+h1 {
+    text-shadow: -2px 4px 2px rgb(213, 213, 213);
+    font-family: IRANSans;
+    margin: 0;
+}
+
+p span {
+    font-size: 14px;
+
+}
+
+p span:hover {
+
+    color: #ce0000;
+    font-size: 14px;
+    cursor: none;
+
+}
+
+p {
+
+
+    font-size: 14px;
+    cursor: none;
+
+}
+
+#main-div {
+    display: flex;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.continer {
+    width: 50vw;
+    height: 720px;
+
+}
+
+.login-image>img {
+
+    width: 100%;
+    height: 720px;
+}
+
+#left-div.continer {
+
+    background-color: dodgerblue;
+    border: none;
+}
+
+.continer img {
+    outline: none;
+}
+
+#right-div.continer {
+
+
+    background-color: white;
+}
+
+.login-pic {
+    width: 100px;
+    height: 100px;
+}
+
+.objects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.objects p {
+    width: 60%;
+    text-align: center;
+    color: #888;
+}
+
+.form-icon {
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin: 10px auto;
+}
+
+.blue {
+    display: none;
+
+}
+
+input[type="email"],
+input[type="password"] {
+    border: none;
+    height: 45px;
+    width: 300px;
+    outline: none;
+    font-size: 16px;
+    font-family: JetBrain;
+}
+
+input[type]::placeholder {
+    font-size: 12px;
+
+}
+
+input[type]:focus::placeholder {
+    opacity: 0;
+}
+
+input[type]:focus {
+    border-radius: 5px;
+
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus {
+    cursor: default;
+}
+
+input[type],
+.btn,
+a>label,
+a:link,
+button {
+    cursor: pointer;
+
+}
+
+fieldset {
+    padding: 5px;
+    margin: 30px;
+    border-radius: 10px;
+
+}
+
+legend {
+    display: none;
+    font-family: JetBrain;
+    font-weight: bold;
+}
+
+fieldset:focus-within>legend {
+    color: #008e98;
+    display: block;
+
+}
+
+fieldset:focus-within {
+    border: 1px solid #4c93ff;
+
+}
+
+fieldset:focus-within img:nth-of-type(1) {
+    display: none;
+
+
+}
+
+fieldset:focus-within img:nth-of-type(2) {
+    display: block;
+}
+
+/*     =================== */
+
+.recovery {}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 340px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #015ceb;
+}
+
+input[type="submit"] {
+    width: 340px;
+    height: 40px;
+    background-color: #015ceb;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+.btn {
+    width: 338px;
+    height: 40px;
+    background-color: white;
+    margin-left: 12px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: black;
+    border: 1px solid rgb(164, 164, 164);
+
+}
+
+.btn a:link {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.btn button {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.footer {
+    margin: 80px auto;
+
+}
+
+.footer p {
+    text-align: center;
+    color: #888;
+
+}

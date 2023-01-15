@@ -1,0 +1,249 @@
+@font-face {
+  font-family: IRANSans;
+  src: url("/fonts/Iransans-light/IRANSansWeb_Light.eot#iefix")
+    format("EmbeddedOpenType");
+  src: url("/fonts/Iransans-light/IRANSansWeb_Light.ttf") format("truetype");
+  src: url("/fonts/Iransans-light/IRANSansWeb_Light.svg");
+  src: url("/fonts/Iransans-light/IRANSansWeb_Light.woff") format("woff");
+  src: url("/fonts/Iransans-light/IRANSansWeb_Light.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: JetBrain;
+  src: url("../fonts/jetbrain/JetBrainsMono-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: JetBrain;
+  src: url("../fonts/jetbrain/JetBrainsMono-ExtraBold.ttf") format("truetype");
+  font-weight: bold;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-family: IRANSans;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(233, 233, 233);
+  margin: 10px auto;
+  font-size: 20px;
+}
+p.pheader {
+  font-family: IRANSans;
+  text-align: center;
+  color: #888;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.level-0 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.level-1 {
+  width: 50vw;
+  height: 100vh;
+ 
+}
+.sideleft{
+    background-image:url("../images/Data_security_27.jpg");
+    background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.level-12 {
+  width: 60%;
+  margin: 0 auto;
+}
+.img-up {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+.red,.green{
+    display: none;
+}
+fieldset {
+  border-radius: 10px 0px 0px 10px;
+  height: 65px;
+  margin-top: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+fieldset:focus-within > legend.c1,
+fieldset:focus-within > select {
+  display: inline;
+}
+fieldset:focus-within > legend.c2 {
+  display: contents;
+}
+fieldset:focus-within > legend.c0,
+fieldset:focus-within > .right-icon,.true {
+  display: none;
+}
+fieldset:focus-within {
+  padding-top: 6px;
+
+  border-color: #008e98;
+  border-style: dashed;
+  cursor: default;
+}
+/*============================*/
+fieldset:focus-within:valid {
+  border-color: rgb(0, 215, 129);
+}
+fieldset:valid>.normal{
+   display: none;
+  }
+  fieldset:valid>.green{
+    display: inline;
+  }
+  fieldset:focus-within:valid>.green{
+    display: none;
+  }
+  fieldset:focus-within:valid>.true{
+    display: inline;
+  }
+  fieldset:focus-within:invalid>.red{
+    display: inline;
+  }
+
+  /*=========================================*/
+legend {
+  color: #008e98;
+  font-family: JetBrain;
+  font-weight: bold;
+  display: none;
+}
+legend.c0 {
+  display: contents;
+}
+select {
+  display: none;
+  font-family: JetBrain;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+select:focus-within{
+   box-shadow: 0 0 100px rgb(215, 215, 215) inset;
+}
+
+select:hover{
+    background-color: rgb(215, 215, 215);
+}
+select:focus-within>option{
+    background-color: #c7e2f6;
+}
+option:hover
+{
+  background-color: red;
+}
+/*
+fieldset:focus-within:valid>legend.c1{
+    display: inline;
+}
+
+fieldset:focus-within>input:valid~legend.c1{
+    display: inline;
+}
+*/
+input[required] {
+  border: none;
+  outline: none;
+  margin: auto;
+  font-size: 14px;
+  font-family: JetBrain;
+  cursor: pointer;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+input::placeholder {
+  font-family: JetBrain;
+  text-transform: lowercase;
+}
+input:focus {
+  cursor: default;
+}
+
+legend > img {
+  width: 14px;
+}
+.right-icon {
+  width: 24px;
+  float: right;
+}
+
+.persiantxt,
+label {
+  text-align: right;
+  font-size: 14px;
+  font-family: IRANSans;
+}
+.footertxt {
+  text-align: center;
+  font-size: 14px;
+  font-family: IRANSans;
+  margin-top: 30px;
+  color: #888;
+}
+input[type="checkbox"] {
+  width: 30px;
+  height: 23px;
+  cursor: pointer;
+  vertical-align: middle;
+
+ 
+  
+}
+.level-121 {
+  direction: rtl;
+}
+.btn-div {
+  margin: 30px auto 10px;
+}
+.btn {
+  display: block;
+  width: 70%;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: IRANSans;
+}
+.btn.blue {
+  background-color: #015ceb;
+  border: none;
+  color: white;
+}
+.btn.white {
+  background-color: #f1f2f9;
+  border: 2px solid rgb(237, 237, 237);
+  color: black;
+}
+
+.btn > img {
+  display: inline;
+  width: 16px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn.white:hover{
+   background-color: transparent;
+}
+.btn.blue:hover{
+    background-color: #015bebcf;
+ }
+/*==================================*/
+
+

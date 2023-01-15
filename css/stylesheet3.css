@@ -1,0 +1,19 @@
+.legend-1,.legend-3{
+    display: inline;
+    display: none;
+}
+.legend-2{
+    display:contents;
+}
+fieldset:focus-within>.legend-2,fieldset:focus-within>img{
+    display: none;
+}
+fieldset:focus-within>.legend-1,fieldset:focus-within>.legend-3{
+    display: inline;
+}
+fieldset{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+}

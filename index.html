@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="16x16"
+      href="images/password.png"
+    />
+  </head>
+  <body>
+    <div id="main-div">
+      <div id="left-div" class="continer">
+        <div class="login-image">
+          <img src="images/Data_security_27.jpg" alt="login pic" />
+        </div>
+      </div>
+      <div id="right-div" class="continer">
+        <div class="objects">
+          <img class="login-pic" src="images/password.png" alt="login-pic" />
+          <h1>ورود به پرتال</h1>
+
+          <p>
+            <span>E</span><span>n</span><span>t</span><span>e</span
+            ><span>r</span> <span>Y</span><span>o</span><span>u</span
+            ><span>r</span> <span>E</span><span>m</span><span>a</span
+            ><span>i</span><span>l</span> <span>A</span><span>n</span
+            ><span>d</span> <span>P</span><span>a</span><span>s</span
+            ><span>s</span><span>w</span><span>o</span><span>r</span
+            ><span>d</span> <span>T</span><span>o</span> <span>E</span
+            ><span>n</span><span>t</span><span>e</span><span>r</span>
+            <span>T</span><span>h</span><span>e</span> <span>P</span
+            ><span>o</span><span>r</span><span>t</span><span>a</span
+            ><span>l</span>
+          </p>
+          <div>
+            <form action="login.php" method="POST">
+              <fieldset>
+                <legend>
+                  <span>Email</span>
+                </legend>
+                <label for="email-input"></label>
+                <input
+                  id="email-input"
+                  type="email"
+                  placeholder="Enter Your Email ..."
+                  required
+                />
+                <img
+                  class="form-icon"
+                  src="images/arroba.png"
+                  alt="at sign icon"
+                />
+                <img
+                  class="form-icon blue"
+                  src="images/image.png"
+                  alt="at sign icon"
+                />
+              </fieldset>
+              <fieldset>
+                <legend class="my-legend">Password</legend>
+                <label for="pass-input"></label>
+                <input
+                  id="pass-input"
+                  type="password"
+                  placeholder="Enter Your Password"
+                  required
+                  min="8"
+                  max="32"
+                  autocomplete="off"
+                />
+                <img
+                  class="form-icon"
+                  src="images/padlock.png"
+                  alt="at sign icon"
+                />
+                <img
+                  class="form-icon blue"
+                  src="images/image (1).png"
+                  alt="at sign icon"
+                />
+              </fieldset>
+              <div>
+                <span
+                  ><input class="remember-me" type="checkbox" />Remember
+                  Me!</span
+                >
+                <a class="recovery" href="#"
+                  ><label for="pass-input">Recovery Password</label></a
+                >
+              </div>
+              <br />
+              <input type="submit" value="Login" />
+            </form>
+          </div>
+          <div class="btn">
+            <a href="#"
+              ><img
+                class="btn-icon"
+                src="images/icons8-google-96.png"
+                alt="google icon"
+              />
+              <button>Sign in with Google</button></a
+            >
+          </div>
+        </div>
+        <div class="footer">
+          <p>Dont Have Already Account ? <a href="#"> SignUp</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
